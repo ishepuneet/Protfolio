@@ -20,7 +20,7 @@ export default function Services() {
             className="bg-gray-800 rounded-2xl p-6 shadow-lg/50 shadow-white hover:scale-105 transition transform duration-300">
             <div className="text-indigo-400 text-4xl mb-4">
               💻
-            </div>
+            </div> 
             <h3 className="text-xl font-semibold mb-2">Custom Web Development</h3>
             <p className="text-gray-400 text-sm">Building fully responsive websites using React,
               Node.js, and Tailwind CSS tailored to your business needs.</p>

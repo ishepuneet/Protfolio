@@ -69,7 +69,7 @@ export default function Project() {
           { src: weather, label: 'Weather App responsive', link: 'https://app-api-weather-forcast.netlify.app' },
           { src: age, label: 'Age Calculator responsive', link: 'https://jsagecalculate.netlify.app' },
           { src: one, label: 'My First Project', link: 'https://ws-first-project.vercel.app' }
-          ].map((project, i) => (
+          ].map((project, i) => ( 
             <a href={project.link} key={i} target="_blank" rel="noopener noreferrer">
               <div className="project-card bg-cyan-950 opacity-0 translate-y-10 hover:border hover:scale-105 transition-all duration-700 transform p-3 w-[250px] rounded-3xl shadow-md">
                 <img src={project.src} alt={project.label} className="h-[200px] w-[300px] rounded-3xl object-cover" />

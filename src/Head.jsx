@@ -81,7 +81,7 @@ export default function Head() {
         {/* Typing Text */}
         <h1
           ref={slideTextRef}
-          className="text-white text-4xl lg:mt-50 sm:text-5xl lg:text-6xl opacity-0 transform -translate-x-96 transition-all duration-1000 leading-snug text-center md:text-left"
+          className="text-white text-4xl lg:mt-50 sm:text-5xl lg:text-6xl opacity-0 transform -translate-x-96 transition-all duration-1000 leading-snug text-center md:text-left" 
         >
           <span ref={typingRef}></span>
         </h1>

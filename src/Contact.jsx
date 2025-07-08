@@ -27,7 +27,7 @@ export default function Contact() {
                 const credential = GoogleAuthProvider.credentialFromError(error);
             });
 
-    };
+    }; 
 
 
 

@@ -78,7 +78,7 @@ export default function About() {
             <li>puneetkohli1102@gmail.com</li>
             <li>India</li>
           </ul>
-        </div>
+        </div> 
       </div>
     </section>
   );

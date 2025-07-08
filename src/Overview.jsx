@@ -15,7 +15,7 @@ export default function Overview() {
       </p>
 
       <div className="flex flex-col lg:flex-row justify-center gap-10">
-        {/* Tech Stack Card */}
+        {/* Tech St ack Card */}
         <div className="w-full lg:w-[480px] bg-white/30 border border-white rounded-2xl p-6 md:p-10">
           <h2 className="text-2xl sm:text-3xl font-semibold mb-5">🔧 Tech Stack Used</h2>
           <ul className="list-disc list-inside text-base sm:text-lg leading-8">

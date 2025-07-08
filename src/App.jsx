@@ -77,7 +77,7 @@ function App() {
       <div className="background bg-fixed h-[100vh] bg-center p-4 bg-no-repeat bg-cover">
         <nav className="fixed top-5 left-5 z-50 text-white text-base">
           {/* Toggle Button */}
-          <div>
+          <div> 
             <button
               onClick={handleToggle}
               className="p-2 bg-white/20 rounded-lg backdrop-blur"
