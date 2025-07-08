@@ -225,9 +225,9 @@ export default function Skill() {
 
           <ul
             className="lg:leading-10 mt-10 flex flex-wrap front-tools gap-9 reveal-on-scroll opacity-0 translate-y-10 transition-all duration-1000">
-            <li className="skill-box w-28 h-44 py-10 bg-white text-center rounded-xl shadow-xl border-4 border-gray-600">
-              <img src={vs} alt="" className="object-contain mb-1" />
-            </li>
+            <span
+              className="w-28 border-3 border-gray-500 py-10 rounded-xl shadow-xl/20 shadow-white bg-[white] "><img
+                src={vs} width="600" alt="" /></span>
 
             <span
               className="w-28 border-3 border-gray-500 pt-4 rounded-xl shadow-xl/20 shadow-white bg-[white] "><img
@@ -239,11 +239,6 @@ export default function Skill() {
               className="w-28 border-3 border-gray-500 py-10 rounded-xl shadow-xl/20 shadow-white bg-[white] "><img
                 src={net} alt="" />
             </span>
-
-            <li className="skill-box w-28 h-44 p-5 bg-white text-center rounded-xl shadow-xl border-4 border-gray-600">
-              <img src={vercel} alt="" className="object-contain mb-1" />
-              <p className="text-black text-2xl">vercel</p>
-            </li>
 
             <span
               className="w-28 border-3 border-gray-500 py-10 rounded-xl shadow-xl/20 shadow-white bg-[white] "><img
