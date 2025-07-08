@@ -72,7 +72,7 @@ export default function About() {
           </ul>
           <ul className="leading-10">
             <li>Puneet</li>
-            <li>24</li>
+            <li>23</li>
             <li>Jalandhar Cantt, Punjab</li>
             <li>+91-7526889964</li>
             <li>puneetkohli1102@gmail.com</li>
