@@ -22,7 +22,6 @@ import node from './images/node.png'
 import fire from './images/fire.png'
 import mongo from './images/mongo.png'
 
-import vercel from './images/ver.png'
 import post from './images/post.png'
 import vs from './images/code.png'
 import thunder from './images/thunder.png'
