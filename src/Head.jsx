@@ -6,7 +6,7 @@ import link from './images/link.png';
 import you from './images/you.png';
 import main from './images/code.jpg';
 
-export default function Intro() {
+export default function Head() {
   const slideTextRef = useRef(null);
   const typingRef = useRef(null);
 

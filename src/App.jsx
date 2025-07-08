@@ -8,7 +8,7 @@ import Skill from './Skill';
 import Project from './Project';
 import Services from './Services';
 import Contact from './Contact';
-import Intro from './Intro';
+
 
 
 
@@ -18,6 +18,7 @@ import Intro from './Intro';
 import { FaBarsStaggered } from 'react-icons/fa6';
 
 import Overview from './Overview';
+import Head from './head';
 
 
 function App() {
@@ -116,7 +117,7 @@ function App() {
 
       <div className="max-w-screen-2xl m-auto">
 
-        <Intro />
+        <Head />
         <About />
         <Skill />
         <Project />
