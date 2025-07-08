@@ -8,7 +8,7 @@ import Skill from './Skill';
 import Project from './Project';
 import Services from './Services';
 import Contact from './Contact';
-
+import Intro from './Intro';
 
 
 
@@ -16,8 +16,9 @@ import Contact from './Contact';
 
 
 import { FaBarsStaggered } from 'react-icons/fa6';
-import Intro from './intro';
+
 import Overview from './Overview';
+
 
 function App() {
   const navMenuRef = useRef(null);
