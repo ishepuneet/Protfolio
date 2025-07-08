@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+.background {
+  background-image: url('./images/bg.jpg');
+}
+
+.typing-text {
+  font-family: "Amita", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#text {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.heading {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.about {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.front-skills {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+
+.background-call {
+  background-image: url(./images/connect.jpg);
+}
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .background {
+    background-image: url(./images/sm.jpg);
+  }
+
+  .typing {
+    margin: 75% 0;
+  }
+
+  .typing-text {
+    font-size: 40px;
+  }
+
+  #links {
+    margin-left: 147px;
+  }
+
+  #text {
+    width: 150px;
+    margin: 10px auto;
+  }
+
+  .image {
+    width: 165px;
+    margin: 10px 10px;
+  }
+
+  .role {
+    font-size: 25px;
+    margin-left: 0;
+  }
+
+  #about {
+    font-size: 46px;
+    padding: 36px 0;
+  }
+
+  .info {
+    width: 320px;
+    margin: auto;
+  }
+
+  .btn {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .bio {
+    font-size: 13px;
+  }
+
+  .name {
+    margin-left: 122px;
+  }
+
+  .front {
+    width: 300px;
+  }
+
+  .front-tools {
+    margin-left: 30px;
+  }
+
+  .skill-head {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .front-head {
+    font-size: 33px;
+  }
+
+
+
+  .skill-img,
+  .video-tag {
+    display: none;
+  }
+
+  .tools-head {
+    margin-left: 100px;
+    line-height: 48px;
+  }
+
+  .blog-head {
+    font-size: 52px;
+    text-align: center;
+  }
+
+  .service-head {
+    font-size: 44px;
+  }
+
+  .skill-inner {
+    padding: 30px 0;
+  }
+
+  .over-head {
+    font-size: 35px;
+  }
+
+ .over-points{
+  margin-top: 30px;
+ }
+
+  /* ////////////////MARGIN/////////// */
+
+
+}
