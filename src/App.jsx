@@ -18,7 +18,7 @@ import Contact from './Contact';
 import { FaBarsStaggered } from 'react-icons/fa6';
 
 import Overview from './Overview';
-import Head from './head';
+import Head from './Head';
 
 
 function App() {
