@@ -7,7 +7,7 @@ import todo from './images/todo.png';
 import movie from './images/movie.png';
 import ws from './images/ws.png';
 import weather from './images/weather.jpg';
-import age from './images/age.png';
+import age from './images/a.png';
 import one from './images/one.png';
 
 export default function Project() {
