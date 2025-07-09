@@ -6,7 +6,7 @@ import meta from './images/meta.png';
 import todo from './images/todo.png';
 import movie from './images/movie.png';
 import ws from './images/ws.png';
-import weather from './images/weather.jpg';
+import weather from './images/W.jpg';
 import age from './images/a.png';
 import one from './images/one.png';
 

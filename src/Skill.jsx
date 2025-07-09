@@ -28,6 +28,9 @@ import thunder from './images/thunder.png'
 import net from './images/net.png'
 import figma from './images/figma.png'
 import video3 from './images/tools.mp4'
+import ver from './images/Ver.png'
+
+
 
 export default function Skill() {
   useEffect(() => {
@@ -238,7 +241,9 @@ export default function Skill() {
               className="w-28 border-3 border-gray-500 py-10 rounded-xl shadow-xl/20 shadow-white bg-[white] "><img
                 src={net} alt="" />
             </span>
-
+            <span
+              className="w-28 border-3 border-gray-500 text-black p-5 text-center rounded-xl shadow-xl/20 shadow-white bg-[white] text-[25px]"><img
+                src={ver} width="80" alt="" className='' />Vercel</span>
             <span
               className="w-28 border-3 border-gray-500 py-10 rounded-xl shadow-xl/20 shadow-white bg-[white] "><img
                 src={figma} width="600" alt="" /></span>
