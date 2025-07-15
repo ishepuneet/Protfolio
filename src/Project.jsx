@@ -53,7 +53,7 @@ export default function Project() {
     <section
       id="projects"
       ref={projectRef}
-      className="bg-gradient-to-br from-[#2b5876] to-[#4e4376] rounded-4xl lg:mx-20 my-20 shadow-2xl text-white"
+      className="bg-gradient-to-br from-[#2b5876] to-[#4e4376] rounded-4xl lg:mx-20 my-20 py-20 shadow-2xl text-white"
     >
       <div className="lg:p-10 text-center">
         <h1 className="text-6xl text-white text-center">

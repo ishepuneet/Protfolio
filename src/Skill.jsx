@@ -73,9 +73,9 @@ export default function Skill() {
   }, []);
 
   return (
-    <section id="skills" className="lg:px-20 my-20">
+    <section id="skills" className="lg:px-20  my-20">
 
-      <div className="bg-[#137070] text-white lg:p-15 md:p-15 rounded-4xl shadow-2xl/100 skill-inner">
+      <div className="bg-[#137070] text-white lg:p-15  py-20 rounded-4xl shadow-2xl/100 skill-inner">
         <h1 className="text-center text-6xl mb-12 ">
           Tech Stack <span className="text-green-500">&</span> Skills..
         </h1>
@@ -148,7 +148,7 @@ export default function Skill() {
           </div>
 
           {/* Video Box */}
-          <div className="border border-gray-400 p-5 mb-10 lg:h-[576px] rounded-lg overflow-hidden reveal-on-scroll opacity-0 translate-y-10 md:w-[350px]  transition-all duration-1000">
+          <div className="border border-gray-400 p-5 mb-10 lg:h-[576px] rounded-lg overflow-hidden reveal-on-scroll opacity-0 translate-y-10 w-[350px]  transition-all duration-1000">
             <video
               src={video1}
               autoPlay
@@ -205,7 +205,7 @@ export default function Skill() {
             </ul>
           </div>
           <div
-            className="border border-gray-400 p-5 mb-10 lg:hidden rounded-lg overflow-hidden reveal-on-scroll opacity-0 translate-y-10 transition-all duration-1000">
+            className="border border-gray-400 p-5 mb-10 w-[350px] lg:hidden rounded-lg overflow-hidden reveal-on-scroll opacity-0 translate-y-10 transition-all duration-1000">
             <video src={video2} loop autoplay muted
               className="rounded-lg object-cover" width="300"></video>
           </div>
@@ -250,7 +250,7 @@ export default function Skill() {
           </ul>
         </div>
 
-        <div className="border border-gray-400 p-5 mb-10 lg:h-[576px] rounded-lg overflow-hidden reveal-on-scroll opacity-0 translate-y-10 md:w-[350px]  transition-all duration-1000">
+        <div className="border border-gray-400 p-5 mb-10 lg:h-[576px] mt-30 rounded-lg overflow-hidden reveal-on-scroll opacity-0 translate-y-10 w-[350px]  transition-all duration-1000">
           <video
             src={video3}
             autoPlay

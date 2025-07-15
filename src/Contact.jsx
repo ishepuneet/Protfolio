@@ -2,7 +2,7 @@ import React from 'react'
 
 import call from './images/call.png'
 import { getDatabase, ref, set } from "firebase/database";
-import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider, getRedirectResult } from "firebase/auth";
 import { app } from './Fire';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -14,20 +14,38 @@ export default function Contact() {
     const provider = new GoogleAuthProvider();
 
     const Google = () => {
+        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
-        signInWithPopup(auth, provider)
+        if (isMobile) {
+            signInWithRedirect(auth, provider);
+        } else {
+            signInWithPopup(auth, provider)
+                .then((result) => {
+                    const credential = GoogleAuthProvider.credentialFromResult(result);
+                    const token = credential.accessToken;
+                    const user = result.user;
+                    console.log("Google login successful:", user);
+                })
+                .catch((error) => {
+                    console.error("Google login error:", error);
+                });
+        }
+    };
+
+    React.useEffect(() => {
+        getRedirectResult(auth)
             .then((result) => {
-                const credential = GoogleAuthProvider.credentialFromResult(result);
-                const token = credential.accessToken;
-                const user = result.user;
-            }).catch((error) => {
-                const errorCode = error.code;
-                const errorMessage = error.message;
-                const email = error.customData.email;
-                const credential = GoogleAuthProvider.credentialFromError(error);
+                if (result) {
+                    const user = result.user;
+                    console.log("Redirect login user:", user);
+                }
+            })
+            .catch((error) => {
+                console.error("Redirect login failed:", error);
             });
+    }, []);
 
-    }; 
+
 
 
 
@@ -57,10 +75,10 @@ export default function Contact() {
 
     return (
         <section
-            className="text-white px-4 rounded-3xl lg:mx-20 sm:p-10 lg:p-20 shadow-2xl/100 bg-gradient-to-r from-[#13547a] to-[#537895]"
+            className="text-white py-5 px-4 rounded-4xl lg:m-20 sm:mb-10 service-sec sm:px-6 lg:px-20 shadow-2xl/100 bg-gradient-to-r from-[#13547a] to-[#537895]"
             id="contact">
 
-            <h1 className="text-white text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl my-10">
+            <h1 className="text-white text-center text-4xl sm:text-5xl service-head md:text-6xl lg:text-7xl my-10">
                 Connect <span className="text-green-600 font-bold">With</span> Me..
             </h1>
 
