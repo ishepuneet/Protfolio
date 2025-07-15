@@ -2,7 +2,7 @@ import React from 'react'
 
 import call from './images/call.png'
 import { getDatabase, ref, set } from "firebase/database";
-import { getAuth, signInWithPopup, GoogleAuthProvider, getRedirectResult } from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider, getRedirectResult, signInWithRedirect } from "firebase/auth";
 import { app } from './Fire';
 import { v4 as uuidv4 } from 'uuid';
 
