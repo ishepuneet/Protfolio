@@ -73,7 +73,7 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-gradient-to-r from-[#243B55] to-[#141E30]">
+    <div className="bg-gradient-to-r lg:pb-10 from-[#243B55] to-[#141E30]">
       <div className="background bg-fixed h-[100vh] bg-center p-4 bg-no-repeat bg-cover">
         <nav className="fixed top-5 left-5 z-50 text-white text-base">
           {/* Toggle Button */}

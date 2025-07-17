@@ -27,7 +27,7 @@ export default function Contact() {
             });
 
     };
-    
+
 
     React.useEffect(() => {
         getRedirectResult(auth)
@@ -57,6 +57,7 @@ export default function Contact() {
             email: e.target.umail.value,
             phone: e.target.uphone.value,
             company: e.target.ucompany.value,
+            comment: e.target.ucomment.value,
         };
 
         const Uid = uuidv4(); // Generate a unique ID for the user
@@ -65,7 +66,7 @@ export default function Contact() {
 
         set(ref(db, 'portolio-data/' + Uid), userObj)
 
-        alert("Data Submitted Successfully");
+        e.target.reset(); // Reset the form after submission
 
     };
 
@@ -132,6 +133,14 @@ export default function Contact() {
                                 Company (Ex. Google)</label>
                         </div>
                     </div>
+
+
+                    <div className="my-10">
+                        <label for="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
+                        <textarea id="message" name='ucomment' rows="4" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Leave a comment..."></textarea>
+                    </div>
+
+
 
                     <div className="flex flex-wrap gap-10">
                         {/* <!-- Submit --> */}
