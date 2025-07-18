@@ -66,7 +66,7 @@ export default function Project() {
           { src: todo, label: 'To-Do List responsive', link: 'https://taskripple.netlify.app' },
           { src: movie, label: 'Movie App responsive', link: 'https://moviemorph.netlify.app' },
           { src: ws, label: 'WsCube Tech Project', link: 'https://mini-multiple-page-website.netlify.app' },
-          { src: weather, label: 'Weather App responsive', link: 'https://app-api-weather-forcast.netlify.app' },
+          { src: weather, label: 'Weather App ', link: 'https://app-api-weather-forcast.netlify.app' },
           { src: age, label: 'Age Calculator responsive', link: 'https://jsagecalculate.netlify.app' },
           { src: one, label: 'My First Project', link: 'https://ws-first-project.vercel.app' }
           ].map((project, i) => ( 
