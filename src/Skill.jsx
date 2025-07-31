@@ -29,7 +29,6 @@ import net from './images/net.png'
 import figma from './images/figma.png'
 import video3 from './images/tools.mp4'
 import ver from './images/Ver.png'
-import { Link } from 'react-router-dom';
 
 
 
@@ -212,12 +211,13 @@ export default function Skill() {
           </div>
         </div>
 
-        <Link href="https:acrobat.adobe.com/id/urn:aaid:sc:AP:addd36b9-31eb-4767-a54d-a685d7634aa1">
+        <a href="https:acrobat.adobe.com/id/urn:aaid:sc:AP:addd36b9-31eb-4767-a54d-a685d7634aa1">
           <button type="button"
             className="py-2.5 px-5 lg:ml-[50%] btn me-2  text-sm font-medium text-gray-900 rounded-full border border-green-600 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 reveal-on-scroll opacity-0 translate-y-10 transition-all duration-1000">Course
             Certificate</button>
-        </Link>
+        </a>
       </div>
+
 
       <div className="lg:flex lg:justify-center bg-[#269c9c] my-20 rounded-4xl shadow-2xl/100 py-20">
 
