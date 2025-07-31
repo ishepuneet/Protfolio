@@ -75,7 +75,7 @@ export default function Head() {
         <img
           src={main}
           alt="Profile"
-          className="w-64 sm:w-72 md:w-80 lg:w-96 rounded-3xl border-4 border-white"
+          className="w-64 sm:w-72 sm:mx-auto md:w-80 lg:w-96 rounded-3xl border-4 border-white"
         />
 
         {/* Typing Text */}
