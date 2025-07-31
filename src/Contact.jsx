@@ -82,6 +82,10 @@ export default function Contact() {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 p-6 rounded-xl">
 
+                <div className="flex justify-center items-center">
+                    <img src={call} alt="Contact Image"
+                        className="max-w-full h-auto rounded-xl shadow-2xl/100 " />
+                </div>
 
                 <form className="max-w-md mx-auto my-10 p-4" onSubmit={userData}>
                     {/* <!-- Email --> */}
@@ -162,10 +166,7 @@ export default function Contact() {
 
                 </form>
 
-                <div className="flex justify-center items-center">
-                    <img src={call} width="400" alt="Contact Image"
-                        className="max-w-full h-auto rounded-xl shadow-2xl/100 " />
-                </div>
+
 
             </div>
         </section>

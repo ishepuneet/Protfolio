@@ -29,6 +29,7 @@ import net from './images/net.png'
 import figma from './images/figma.png'
 import video3 from './images/tools.mp4'
 import ver from './images/Ver.png'
+import { Link } from 'react-router-dom';
 
 
 
@@ -148,7 +149,7 @@ export default function Skill() {
           </div>
 
           {/* Video Box */}
-          <div className="border border-gray-400 p-5 mb-10 lg:h-[576px] rounded-lg overflow-hidden reveal-on-scroll opacity-0 translate-y-10 w-[350px]  transition-all duration-1000">
+          <div className="border border-gray-400 p-5 my-10 mx-auto lg:h-[576px] rounded-lg overflow-hidden reveal-on-scroll opacity-0 translate-y-10 w-[300px]  transition-all duration-1000">
             <video
               src={video1}
               autoPlay
@@ -205,19 +206,18 @@ export default function Skill() {
             </ul>
           </div>
           <div
-            className="border border-gray-400 p-5 mb-10 w-[350px] lg:hidden rounded-lg overflow-hidden reveal-on-scroll opacity-0 translate-y-10 transition-all duration-1000">
+            className="border border-gray-400 p-5 my-10 mx-auto w-[300px] lg:hidden rounded-lg overflow-hidden reveal-on-scroll opacity-0 translate-y-10 transition-all duration-1000">
             <video src={video2} loop autoplay muted
               className="rounded-lg object-cover" width="300"></video>
           </div>
         </div>
 
-        <a href="https:acrobat.adobe.com/id/urn:aaid:sc:AP:addd36b9-31eb-4767-a54d-a685d7634aa1">
+        <Link href="https:acrobat.adobe.com/id/urn:aaid:sc:AP:addd36b9-31eb-4767-a54d-a685d7634aa1">
           <button type="button"
             className="py-2.5 px-5 lg:ml-[50%] btn me-2  text-sm font-medium text-gray-900 rounded-full border border-green-600 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 reveal-on-scroll opacity-0 translate-y-10 transition-all duration-1000">Course
             Certificate</button>
-        </a>
+        </Link>
       </div>
-
 
       <div className="lg:flex lg:justify-center bg-[#269c9c] my-20 rounded-4xl shadow-2xl/100 py-20">
 
@@ -250,7 +250,7 @@ export default function Skill() {
           </ul>
         </div>
 
-        <div className="border border-gray-400 p-5 mb-10 lg:h-[576px] mt-30 rounded-lg overflow-hidden reveal-on-scroll opacity-0 translate-y-10 w-[350px]  transition-all duration-1000">
+        <div className="border border-gray-400 p-5 mb-10 lg:h-[576px] mt-30 rounded-lg overflow-hidden reveal-on-scroll opacity-0 translate-y-10 w-[300px] mx-auto  transition-all duration-1000">
           <video
             src={video3}
             autoPlay
