@@ -211,11 +211,13 @@ export default function Skill() {
           </div>
         </div>
 
-        <a href="https:acrobat.adobe.com/id/urn:aaid:sc:AP:addd36b9-31eb-4767-a54d-a685d7634aa1">
+        <a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:addd36b9-31eb-4767-a54d-a685d7634aa1" target="_blank" rel="noopener noreferrer">
           <button type="button"
-            className="py-2.5 px-5 lg:ml-[50%] btn me-2  text-sm font-medium text-gray-900 rounded-full border border-green-600 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 reveal-on-scroll opacity-0 translate-y-10 transition-all duration-1000">Course
-            Certificate</button>
+            className="py-2.5 px-5 lg:ml-[50%] btn me-2 text-sm font-medium text-gray-900 rounded-full border border-green-600 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 reveal-on-scroll opacity-0 translate-y-10 transition-all duration-1000">
+            Course Certificate
+          </button>
         </a>
+
       </div>
 
 
