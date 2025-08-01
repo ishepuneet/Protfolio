@@ -161,7 +161,7 @@ export default function Skill() {
         </div>
       </div>
 
-      <div className="my-20 bg-cyan-700  lg:p-15 py-20 rounded-4xl shadow-2xl/100">
+      <div className="my-20 bg-cyan-700  lg:p-15 py-10 rounded-4xl shadow-2xl/100">
 
         <div className="lg:flex lg:justify-around ">
           <div
@@ -221,7 +221,7 @@ export default function Skill() {
       </div>
 
 
-      <div className="lg:flex lg:justify-center bg-[#269c9c] my-20 rounded-4xl shadow-2xl/100 py-20">
+      <div className="lg:flex lg:justify-center bg-[#269c9c]  my-20 rounded-4xl shadow-2xl/100 py-10">
 
         <div
           className="text-white lg:w-[480px] lg:mt-20 front reveal-on-scroll opacity-0 translate-y-10 transition-all duration-1000">

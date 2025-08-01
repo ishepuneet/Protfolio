@@ -61,7 +61,7 @@ export default function About() {
           </button>
         </a>
 
-        <div className="flex justify-between lg:ml-50 lg:w-[370px] font-light font-sans p-5 bio text-white">
+        <div className="flex justify-between lg:ml-50 w-[290px] lg:w-[340px] mx-auto  font-light font-sans p-5 bio text-white">
           <ul className="leading-10">
             <li>Name :</li>
             <li>Age :</li>
