@@ -124,6 +124,10 @@ body::-webkit-scrollbar {
     display: none;
   }
 
+.video3{
+  width: 312px;
+}
+
   .tools-head {
     margin-left: 100px;
     line-height: 48px;

@@ -148,19 +148,22 @@ export default function Skill() {
           </div>
 
           {/* Video Box */}
-          <div className="border border-gray-400 p-5 my-10 mx-auto lg:h-[576px] rounded-lg overflow-hidden reveal-on-scroll opacity-0 translate-y-10 w-[300px]  transition-all duration-1000">
+          <div className="border border-gray-400 lg:h-[518px] p-5 video3 mx-auto rounded-lg overflow-hidden reveal-on-scroll opacity-0 translate-y-10 transition-all duration-1000">
             <video
               src={video1}
               autoPlay
               loop
               muted
-              width={300}
+              width={270}
               className="rounded-lg object-cover"
             ></video>
           </div>
         </div>
       </div>
 
+
+
+      {/* ///////////////SECTION FOR BACKEND DEVELOPMENT///////////////////// */}
       <div className="my-20 bg-cyan-700  lg:p-15 py-10 rounded-4xl shadow-2xl/100">
 
         <div className="lg:flex lg:justify-around ">
@@ -221,7 +224,9 @@ export default function Skill() {
       </div>
 
 
-      <div className="lg:flex lg:justify-center bg-[#269c9c]  my-20 rounded-4xl shadow-2xl/100 py-10">
+
+      {/* ///////////SECTION FOR TOOLS AND PLATFORMS///////////////////// */}
+      <div className="lg:flex lg:justify-center bg-[#269c9c]  my-20 rounded-4xl shadow-2xl/100 lg:p-20 py-10">
 
         <div
           className="text-white lg:w-[480px] lg:mt-20 front reveal-on-scroll opacity-0 translate-y-10 transition-all duration-1000">
@@ -252,13 +257,13 @@ export default function Skill() {
           </ul>
         </div>
 
-        <div className="border border-gray-400 p-5 mb-10 lg:h-[576px] mt-30 rounded-lg overflow-hidden reveal-on-scroll opacity-0 translate-y-10 w-[300px] mx-auto  transition-all duration-1000">
+        <div className="border border-gray-400 lg:h-[520px] p-5 video3 mx-auto my-15 rounded-lg overflow-hidden reveal-on-scroll opacity-0 translate-y-10 transition-all duration-1000">
           <video
             src={video3}
             autoPlay
             loop
             muted
-            width={300}
+            width={270}
             className="rounded-lg object-cover"
           ></video>
         </div>

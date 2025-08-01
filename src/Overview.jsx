@@ -31,8 +31,8 @@ export default function Overview() {
           <h2 className="text-2xl sm:text-3xl font-semibold mb-5">📂 Key Features</h2>
           <ul className="list-disc list-inside text-base sm:text-lg leading-8">
             <li>💼 Downloadable CV and Certificates (linked via Firebase)</li>
-            <li>🔐 Secure Login System using Firebase Authentication</li>
-            <li>🔄 Google Sign-In connected for easy access</li>
+            <li>🔐 Secure Connect System using Firebase Authentication</li>
+            {/* <li>🔄 Google Sign-In connected for easy access</li> */}
             <li>🔥 Live Data Management using Firebase Realtime Database</li>
             <li>📱 Fully Responsive – optimized for all screen sizes</li>
           </ul>

@@ -87,7 +87,7 @@ export default function Contact() {
                         className="max-w-full h-auto rounded-xl shadow-2xl/100 " />
                 </div>
 
-                <form className="max-w-md mx-auto my-10 p-4" onSubmit={userData}>
+                <form className="max-w-md my-10 " onSubmit={userData}>
                     {/* <!-- Email --> */}
                     <div className="relative z-0 w-full mb-5 group">
                         <input type="email" name="umail" id="email" autocomplete="email"
@@ -152,7 +152,7 @@ export default function Contact() {
                             Submit
                         </button>
 
-                        <button type="button"
+                        {/* <button type="button"
                             className="text-white bg-[#4285F4] hover:bg-[#4285F4]/90 focus:ring-4 focus:outline-none focus:ring-[#4285F4]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center cursor-pointer inline-flex items-center dark:focus:ring-[#4285F4]/55 me-2 mb-2" onClick={Google}>
                             <svg className="w-4 h-4 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                 fill="currentColor" viewBox="0 0 18 19">
@@ -161,7 +161,7 @@ export default function Contact() {
                                     clip-rule="evenodd" />
                             </svg>
                             Sign in with Google
-                        </button>
+                        </button> */}
                     </div>
 
                 </form>

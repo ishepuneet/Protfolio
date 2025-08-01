@@ -60,7 +60,7 @@ export default function Project() {
           <span className="text-green-600 font-bold">My</span> Projects..
         </h1>
 
-        <div className="mt-20 grid sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
+        <div className="mt-20 grid sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center ">
           {[{ src: pack, label: 'Pack & Shifts responsive', link: 'https://pack-shifts.netlify.app/' },
           { src: meta, label: 'Meta Newsroom', link: 'https://byteroomnews.netlify.app' },
           { src: todo, label: 'To-Do List responsive', link: 'https://taskripple.netlify.app' },
@@ -71,7 +71,7 @@ export default function Project() {
           { src: one, label: 'My First Project', link: 'https://ws-first-project.vercel.app' }
           ].map((project, i) => ( 
             <a href={project.link} key={i} target="_blank" rel="noopener noreferrer">
-              <div className="project-card bg-cyan-950 opacity-0 translate-y-10 hover:border hover:scale-105 transition-all duration-700 transform p-3 w-[250px] rounded-3xl shadow-md">
+              <div className="project-card bg-cyan-950 opacity-0 rounded-2xl border-gray-400 border shadow-lg/50 shadow-white translate-y-10 lg:hover:border hover:scale-105 transition-all duration-700 transform p-3 w-[250px]  ">
                 <img src={project.src} alt={project.label} className="h-[200px] w-[300px] rounded-3xl object-cover" />
                 <p className="text-2xl my-2">{project.label}</p>
               </div>
