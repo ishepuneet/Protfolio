@@ -70,18 +70,18 @@ export default function Head() {
     <section className="relative px-6 py-12 lg:m-20 md:px-16 lg:px-24 bg-gradient-to-br from-[#2b5876] to-[#4e4376] rounded-4xl shadow-4xl/100">
      
      
-      <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
+      <div className="flex flex-col md:flex-row items-center gap-8">
         {/* Profile Image */}
         <img
           src={main}
           alt="Profile"
-          className="w-64 sm:w-72 sm:mx-auto md:w-80 lg:w-96 rounded-3xl border-4 border-white"
+          className="w-64 sm:w-72 md:w-80 lg:w-96 rounded-3xl border-4 border-white"
         />
 
         {/* Typing Text */}
         <h1
           ref={slideTextRef}
-          className="text-white text-4xl lg:mt-50 sm:text-lg lg:text-6xl  opacity-0 transform transition-all duration-1000 leading-snug text-center md:text-left" 
+          className="text-white text-4xl sm:text-5xl lg:text-6xl opacity-0 -translate-x-96 transform transition-all duration-1000 leading-snug text-center md:text-left"
         >
           <span ref={typingRef}></span>
         </h1>
