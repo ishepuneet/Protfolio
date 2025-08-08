@@ -209,7 +209,7 @@ export default function Skill() {
           </div>
           <div
             className="border border-gray-400 p-5 my-10 mx-auto w-[300px] lg:hidden rounded-lg overflow-hidden reveal-on-scroll opacity-0 translate-y-10 transition-all duration-1000">
-            <video src={video2} loop autoplay muted
+           <video src={video2} loop autoPlay muted
               className="rounded-lg object-cover" width="300"></video>
           </div>
         </div>
