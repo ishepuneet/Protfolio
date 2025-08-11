@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import pro from './images/pro.jpg'; // Make sure this path is valid (e.g., public/images/pro.png if in public folder)
+import pro from './images/pro2.webp'; // Make sure this path is valid (e.g., public/images/pro.png if in public folder)
 import { Link } from 'react-router-dom';
 import cv from './images/Cv.pdf'
 
